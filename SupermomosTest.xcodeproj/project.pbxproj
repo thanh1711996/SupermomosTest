@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -11,9 +11,35 @@
 		0457115326BE394E006852F1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0457115226BE394E006852F1 /* SceneDelegate.swift */; };
 		0457115526BE394E006852F1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0457115426BE394E006852F1 /* ViewController.swift */; };
 		0457115826BE394E006852F1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0457115626BE394E006852F1 /* Main.storyboard */; };
-		0457115B26BE394E006852F1 /* SupermomosTest.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 0457115926BE394E006852F1 /* SupermomosTest.xcdatamodeld */; };
 		0457115D26BE3952006852F1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0457115C26BE3952006852F1 /* Assets.xcassets */; };
 		0457116026BE3952006852F1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0457115E26BE3952006852F1 /* LaunchScreen.storyboard */; };
+		046343F526BE802F00D9463D /* ListUserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046343F326BE802F00D9463D /* ListUserViewController.swift */; };
+		046343F826BE806600D9463D /* ListUserViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046343F726BE806600D9463D /* ListUserViewModel.swift */; };
+		0463440726BE810100D9463D /* Manager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0463440026BE810100D9463D /* Manager.swift */; };
+		0463440826BE810100D9463D /* ApiError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0463440126BE810100D9463D /* ApiError.swift */; };
+		0463440B26BE810100D9463D /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0463440426BE810100D9463D /* Request.swift */; };
+		0463440C26BE810100D9463D /* HTTPStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0463440526BE810100D9463D /* HTTPStatus.swift */; };
+		048421DA26BF644C00D75EF3 /* ListUserStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 048421D926BF644C00D75EF3 /* ListUserStoryboard.storyboard */; };
+		048421E026BF74E600D75EF3 /* DetailUserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048421DE26BF74E600D75EF3 /* DetailUserViewController.swift */; };
+		048421E126BF74E600D75EF3 /* DetailUserViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 048421DF26BF74E600D75EF3 /* DetailUserViewController.xib */; };
+		048421E326BF758000D75EF3 /* DetailUserViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048421E226BF758000D75EF3 /* DetailUserViewModel.swift */; };
+		048421E526BF961700D75EF3 /* UserObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048421E426BF961700D75EF3 /* UserObject.swift */; };
+		048421E726BF9A1900D75EF3 /* RealmManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048421E626BF9A1900D75EF3 /* RealmManager.swift */; };
+		049C35C326BEA2F900212370 /* Target.swift in Sources */ = {isa = PBXBuildFile; fileRef = 049C35C226BEA2F900212370 /* Target.swift */; };
+		049C35C626BEA60A00212370 /* NSErrorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 049C35C526BEA60A00212370 /* NSErrorExtension.swift */; };
+		049C35C826BEDF8F00212370 /* Response.swift in Sources */ = {isa = PBXBuildFile; fileRef = 049C35C726BEDF8E00212370 /* Response.swift */; };
+		049C35CC26BEE21E00212370 /* UserTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 049C35CB26BEE21E00212370 /* UserTarget.swift */; };
+		049C35CE26BEE23600212370 /* UserService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 049C35CD26BEE23600212370 /* UserService.swift */; };
+		049C35D026BEE50200212370 /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 049C35CF26BEE50200212370 /* UserModel.swift */; };
+		049C35D726BEEF2D00212370 /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 049C35D426BEEF2B00212370 /* DataManager.swift */; };
+		049C35D826BEEF2D00212370 /* BaseViewModelChange.swift in Sources */ = {isa = PBXBuildFile; fileRef = 049C35D526BEEF2C00212370 /* BaseViewModelChange.swift */; };
+		049C35D926BEEF2D00212370 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 049C35D626BEEF2D00212370 /* BaseViewController.swift */; };
+		049C35DB26BF4CB300212370 /* UIViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 049C35DA26BF4CB300212370 /* UIViewExtension.swift */; };
+		049C35DD26BF4CC500212370 /* UITableview+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 049C35DC26BF4CC500212370 /* UITableview+Extension.swift */; };
+		049C35E026BF4EE200212370 /* LoadingManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 049C35DF26BF4EE200212370 /* LoadingManager.swift */; };
+		049C35E426BF57F700212370 /* ListUserCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 049C35E226BF57F700212370 /* ListUserCell.swift */; };
+		049C35E526BF57F700212370 /* ListUserCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 049C35E326BF57F700212370 /* ListUserCell.xib */; };
+		45DBF9D77811B3DF9234BD92 /* Pods_SupermomosTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1EEAF370606A5085E8C2C919 /* Pods_SupermomosTest.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,10 +48,38 @@
 		0457115226BE394E006852F1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		0457115426BE394E006852F1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		0457115726BE394E006852F1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		0457115A26BE394E006852F1 /* SupermomosTest.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SupermomosTest.xcdatamodel; sourceTree = "<group>"; };
 		0457115C26BE3952006852F1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0457115F26BE3952006852F1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0457116126BE3952006852F1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		046343F326BE802F00D9463D /* ListUserViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListUserViewController.swift; sourceTree = "<group>"; };
+		046343F726BE806600D9463D /* ListUserViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListUserViewModel.swift; sourceTree = "<group>"; };
+		0463440026BE810100D9463D /* Manager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Manager.swift; sourceTree = "<group>"; };
+		0463440126BE810100D9463D /* ApiError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApiError.swift; sourceTree = "<group>"; };
+		0463440426BE810100D9463D /* Request.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Request.swift; sourceTree = "<group>"; };
+		0463440526BE810100D9463D /* HTTPStatus.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HTTPStatus.swift; sourceTree = "<group>"; };
+		048421D926BF644C00D75EF3 /* ListUserStoryboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ListUserStoryboard.storyboard; sourceTree = "<group>"; };
+		048421DE26BF74E600D75EF3 /* DetailUserViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailUserViewController.swift; sourceTree = "<group>"; };
+		048421DF26BF74E600D75EF3 /* DetailUserViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DetailUserViewController.xib; sourceTree = "<group>"; };
+		048421E226BF758000D75EF3 /* DetailUserViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailUserViewModel.swift; sourceTree = "<group>"; };
+		048421E426BF961700D75EF3 /* UserObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserObject.swift; sourceTree = "<group>"; };
+		048421E626BF9A1900D75EF3 /* RealmManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealmManager.swift; sourceTree = "<group>"; };
+		049C35C226BEA2F900212370 /* Target.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Target.swift; sourceTree = "<group>"; };
+		049C35C526BEA60A00212370 /* NSErrorExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NSErrorExtension.swift; sourceTree = "<group>"; };
+		049C35C726BEDF8E00212370 /* Response.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Response.swift; sourceTree = "<group>"; };
+		049C35CB26BEE21E00212370 /* UserTarget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserTarget.swift; sourceTree = "<group>"; };
+		049C35CD26BEE23600212370 /* UserService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserService.swift; sourceTree = "<group>"; };
+		049C35CF26BEE50200212370 /* UserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
+		049C35D426BEEF2B00212370 /* DataManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
+		049C35D526BEEF2C00212370 /* BaseViewModelChange.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseViewModelChange.swift; sourceTree = "<group>"; };
+		049C35D626BEEF2D00212370 /* BaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		049C35DA26BF4CB300212370 /* UIViewExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewExtension.swift; sourceTree = "<group>"; };
+		049C35DC26BF4CC500212370 /* UITableview+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UITableview+Extension.swift"; sourceTree = "<group>"; };
+		049C35DF26BF4EE200212370 /* LoadingManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingManager.swift; sourceTree = "<group>"; };
+		049C35E226BF57F700212370 /* ListUserCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListUserCell.swift; sourceTree = "<group>"; };
+		049C35E326BF57F700212370 /* ListUserCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ListUserCell.xib; sourceTree = "<group>"; };
+		1EEAF370606A5085E8C2C919 /* Pods_SupermomosTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SupermomosTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		890A504F049631821B5B0A2B /* Pods-SupermomosTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SupermomosTest.debug.xcconfig"; path = "Target Support Files/Pods-SupermomosTest/Pods-SupermomosTest.debug.xcconfig"; sourceTree = "<group>"; };
+		89880263FE029D4A36207898 /* Pods-SupermomosTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SupermomosTest.release.xcconfig"; path = "Target Support Files/Pods-SupermomosTest/Pods-SupermomosTest.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +87,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				45DBF9D77811B3DF9234BD92 /* Pods_SupermomosTest.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -44,6 +99,8 @@
 			children = (
 				0457114F26BE394E006852F1 /* SupermomosTest */,
 				0457114E26BE394E006852F1 /* Products */,
+				A514BF49DE22E78AB004C0EA /* Pods */,
+				2EA53BE96A008F597375F1CD /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,16 +115,170 @@
 		0457114F26BE394E006852F1 /* SupermomosTest */ = {
 			isa = PBXGroup;
 			children = (
+				0463440E26BE811400D9463D /* Common */,
+				046343F026BE7C2200D9463D /* Application */,
+				046343F126BE7C6300D9463D /* Screen */,
+				0457116126BE3952006852F1 /* Info.plist */,
+			);
+			path = SupermomosTest;
+			sourceTree = "<group>";
+		};
+		046343F026BE7C2200D9463D /* Application */ = {
+			isa = PBXGroup;
+			children = (
 				0457115026BE394E006852F1 /* AppDelegate.swift */,
 				0457115226BE394E006852F1 /* SceneDelegate.swift */,
 				0457115426BE394E006852F1 /* ViewController.swift */,
 				0457115626BE394E006852F1 /* Main.storyboard */,
 				0457115C26BE3952006852F1 /* Assets.xcassets */,
 				0457115E26BE3952006852F1 /* LaunchScreen.storyboard */,
-				0457116126BE3952006852F1 /* Info.plist */,
-				0457115926BE394E006852F1 /* SupermomosTest.xcdatamodeld */,
 			);
-			path = SupermomosTest;
+			path = Application;
+			sourceTree = "<group>";
+		};
+		046343F126BE7C6300D9463D /* Screen */ = {
+			isa = PBXGroup;
+			children = (
+				048421DD26BF74BF00D75EF3 /* DetailUser */,
+				046343F226BE7FB700D9463D /* ListUser */,
+			);
+			path = Screen;
+			sourceTree = "<group>";
+		};
+		046343F226BE7FB700D9463D /* ListUser */ = {
+			isa = PBXGroup;
+			children = (
+				049C35E126BF57DC00212370 /* Cell */,
+				046343F326BE802F00D9463D /* ListUserViewController.swift */,
+				046343F726BE806600D9463D /* ListUserViewModel.swift */,
+				048421D926BF644C00D75EF3 /* ListUserStoryboard.storyboard */,
+			);
+			path = ListUser;
+			sourceTree = "<group>";
+		};
+		046343FB26BE80BC00D9463D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				049C35CF26BEE50200212370 /* UserModel.swift */,
+				048421E426BF961700D75EF3 /* UserObject.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		046343FE26BE80F800D9463D /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				049C35C926BEE18000212370 /* Services */,
+				049C35CA26BEE18E00212370 /* Targets */,
+				046343FF26BE810100D9463D /* Core */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		046343FF26BE810100D9463D /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				049C35C726BEDF8E00212370 /* Response.swift */,
+				0463440026BE810100D9463D /* Manager.swift */,
+				0463440126BE810100D9463D /* ApiError.swift */,
+				0463440426BE810100D9463D /* Request.swift */,
+				0463440526BE810100D9463D /* HTTPStatus.swift */,
+				049C35C226BEA2F900212370 /* Target.swift */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		0463440E26BE811400D9463D /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				049C35DE26BF4EC800212370 /* Manager */,
+				049C35D326BEEF2000212370 /* Base */,
+				049C35C426BEA5F600212370 /* Extension */,
+				046343FE26BE80F800D9463D /* Network */,
+				046343FB26BE80BC00D9463D /* Model */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		048421DD26BF74BF00D75EF3 /* DetailUser */ = {
+			isa = PBXGroup;
+			children = (
+				048421DE26BF74E600D75EF3 /* DetailUserViewController.swift */,
+				048421E226BF758000D75EF3 /* DetailUserViewModel.swift */,
+				048421DF26BF74E600D75EF3 /* DetailUserViewController.xib */,
+			);
+			path = DetailUser;
+			sourceTree = "<group>";
+		};
+		049C35C426BEA5F600212370 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				049C35C526BEA60A00212370 /* NSErrorExtension.swift */,
+				049C35DA26BF4CB300212370 /* UIViewExtension.swift */,
+				049C35DC26BF4CC500212370 /* UITableview+Extension.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		049C35C926BEE18000212370 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				049C35CD26BEE23600212370 /* UserService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		049C35CA26BEE18E00212370 /* Targets */ = {
+			isa = PBXGroup;
+			children = (
+				049C35CB26BEE21E00212370 /* UserTarget.swift */,
+			);
+			path = Targets;
+			sourceTree = "<group>";
+		};
+		049C35D326BEEF2000212370 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				049C35D626BEEF2D00212370 /* BaseViewController.swift */,
+				049C35D526BEEF2C00212370 /* BaseViewModelChange.swift */,
+				049C35D426BEEF2B00212370 /* DataManager.swift */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		049C35DE26BF4EC800212370 /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				049C35DF26BF4EE200212370 /* LoadingManager.swift */,
+				048421E626BF9A1900D75EF3 /* RealmManager.swift */,
+			);
+			path = Manager;
+			sourceTree = "<group>";
+		};
+		049C35E126BF57DC00212370 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				049C35E226BF57F700212370 /* ListUserCell.swift */,
+				049C35E326BF57F700212370 /* ListUserCell.xib */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		2EA53BE96A008F597375F1CD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1EEAF370606A5085E8C2C919 /* Pods_SupermomosTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A514BF49DE22E78AB004C0EA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				890A504F049631821B5B0A2B /* Pods-SupermomosTest.debug.xcconfig */,
+				89880263FE029D4A36207898 /* Pods-SupermomosTest.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -77,9 +288,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0457116426BE3952006852F1 /* Build configuration list for PBXNativeTarget "SupermomosTest" */;
 			buildPhases = (
+				CE59D2C8FB9F7174FBBDF86B /* [CP] Check Pods Manifest.lock */,
 				0457114926BE394E006852F1 /* Sources */,
 				0457114A26BE394E006852F1 /* Frameworks */,
 				0457114B26BE394E006852F1 /* Resources */,
+				5BBACA00BCC35D0C9DF64C80 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -127,13 +340,58 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				048421E126BF74E600D75EF3 /* DetailUserViewController.xib in Resources */,
 				0457116026BE3952006852F1 /* LaunchScreen.storyboard in Resources */,
+				049C35E526BF57F700212370 /* ListUserCell.xib in Resources */,
 				0457115D26BE3952006852F1 /* Assets.xcassets in Resources */,
+				048421DA26BF644C00D75EF3 /* ListUserStoryboard.storyboard in Resources */,
 				0457115826BE394E006852F1 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5BBACA00BCC35D0C9DF64C80 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SupermomosTest/Pods-SupermomosTest-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SupermomosTest/Pods-SupermomosTest-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SupermomosTest/Pods-SupermomosTest-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CE59D2C8FB9F7174FBBDF86B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SupermomosTest-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		0457114926BE394E006852F1 /* Sources */ = {
@@ -141,9 +399,31 @@
 			buildActionMask = 2147483647;
 			files = (
 				0457115526BE394E006852F1 /* ViewController.swift in Sources */,
-				0457115B26BE394E006852F1 /* SupermomosTest.xcdatamodeld in Sources */,
+				046343F826BE806600D9463D /* ListUserViewModel.swift in Sources */,
+				049C35E026BF4EE200212370 /* LoadingManager.swift in Sources */,
+				049C35D826BEEF2D00212370 /* BaseViewModelChange.swift in Sources */,
+				048421E326BF758000D75EF3 /* DetailUserViewModel.swift in Sources */,
+				049C35D926BEEF2D00212370 /* BaseViewController.swift in Sources */,
+				049C35CC26BEE21E00212370 /* UserTarget.swift in Sources */,
+				046343F526BE802F00D9463D /* ListUserViewController.swift in Sources */,
+				0463440B26BE810100D9463D /* Request.swift in Sources */,
+				049C35C626BEA60A00212370 /* NSErrorExtension.swift in Sources */,
+				048421E026BF74E600D75EF3 /* DetailUserViewController.swift in Sources */,
+				049C35C826BEDF8F00212370 /* Response.swift in Sources */,
+				0463440726BE810100D9463D /* Manager.swift in Sources */,
+				048421E726BF9A1900D75EF3 /* RealmManager.swift in Sources */,
+				049C35D726BEEF2D00212370 /* DataManager.swift in Sources */,
+				049C35E426BF57F700212370 /* ListUserCell.swift in Sources */,
+				0463440826BE810100D9463D /* ApiError.swift in Sources */,
+				049C35D026BEE50200212370 /* UserModel.swift in Sources */,
+				049C35DB26BF4CB300212370 /* UIViewExtension.swift in Sources */,
+				049C35C326BEA2F900212370 /* Target.swift in Sources */,
+				049C35CE26BEE23600212370 /* UserService.swift in Sources */,
 				0457115126BE394E006852F1 /* AppDelegate.swift in Sources */,
 				0457115326BE394E006852F1 /* SceneDelegate.swift in Sources */,
+				0463440C26BE810100D9463D /* HTTPStatus.swift in Sources */,
+				048421E526BF961700D75EF3 /* UserObject.swift in Sources */,
+				049C35DD26BF4CC500212370 /* UITableview+Extension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -220,7 +500,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -275,7 +555,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -287,6 +567,7 @@
 		};
 		0457116526BE3952006852F1 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 890A504F049631821B5B0A2B /* Pods-SupermomosTest.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -306,6 +587,7 @@
 		};
 		0457116626BE3952006852F1 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 89880263FE029D4A36207898 /* Pods-SupermomosTest.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -345,19 +627,6 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCVersionGroup section */
-		0457115926BE394E006852F1 /* SupermomosTest.xcdatamodeld */ = {
-			isa = XCVersionGroup;
-			children = (
-				0457115A26BE394E006852F1 /* SupermomosTest.xcdatamodel */,
-			);
-			currentVersion = 0457115A26BE394E006852F1 /* SupermomosTest.xcdatamodel */;
-			path = SupermomosTest.xcdatamodeld;
-			sourceTree = "<group>";
-			versionGroupType = wrapper.xcdatamodel;
-		};
-/* End XCVersionGroup section */
 	};
 	rootObject = 0457114526BE394E006852F1 /* Project object */;
 }
